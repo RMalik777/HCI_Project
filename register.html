@@ -1,94 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/register.css">
-    <title>Register | NOKA</title>
-</head>
-<body>
-    <!-- NAVBAR -->
-    <nav>
-        <img src="./Asset/bars3.webp" alt="" id="navigationToggle" />
-        <ul id="navigation">
-            <li><a href="./index.html" class="nav-child">HOME</a></li>
-            <li><a href="./news.html" class="nav-child">NEWS</a></li>
-            <li><a href="./register.html" class="nav-child">REGISTER</a></li>
-            <li><a href="./heroes.html" class="nav-child">HEROES</a></li>
-            <li><a href="./esports.html" class="nav-child">ESPORTS</a></li>
-        </ul>
-    </nav>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./CSS/register.css" />
+		<title>Register | NOKA</title>
+	</head>
+	<body>
+		<!-- NAVBAR -->
+		<nav>
+			<img src="./Asset/bars3.webp" alt="" id="navigationToggle" loading="eager" decoding="sync" />
+			<ul id="navigation">
+				<li><a href="./index.html" class="nav-child">HOME</a></li>
+				<li><a href="./news.html" class="nav-child">NEWS</a></li>
+				<li><a href="./register.html" class="nav-child">REGISTER</a></li>
+				<li><a href="./heroes.html" class="nav-child">HEROES</a></li>
+				<li><a href="./esports.html" class="nav-child">ESPORTS</a></li>
+			</ul>
+		</nav>
 
-    <div class="register">
-        <div class="container">
-            <div class="form">
-                <form action="">
-                    Login
-                    <input type="text" name="username" id="username" placeholder="Username">
-                    <input type="password" name="password" id="password" placeholder="Password">
-                    <button type="submit">Login</button>
-                    <div class="logo">
-                        <img src="./Asset/facebookcolor.webp" alt="">
-                        <img src="./Asset/Gmail.webp" alt="">
-                        <img src="./Asset/twiitercolor.webp" alt="">
-                    </div>
-                </form>
-            </div>
-            <div class="form">
-                <form action="" id="form">
-                    Create Account
-                    <input type="text" name="name" id="name" placeholder="Name">
-                    <label for="gender">Gender</label>
-                    <div class="gender">
-                        <div>
-                            <input type="radio" name="gender" id="male">
-                            <label for="male">Male</label>
-                        </div>
-                        <div>
-                            <input type="radio" name="gender" id="female">
-                            <label for="female">Female</label>
-                        </div>
-                    </div>
-                    <input type="text" name="username" id="username" placeholder="Username">
-                    <input type="email" name="email" id="email" placeholder="Email">
-                    <input type="email" name="email" id="emailcon" placeholder="Confirm Email">
-                    <input type="password" name="password" id="password" placeholder="Confirm Password">
-                    <input type="password" name="password" id="passwordcon" placeholder="Confirm Password">
-                    <div>
-                        <input type="checkbox" name="tc" id="tc">
-                        <label for="tc">Agree to Terms and Condition</label>
-                    </div>
-                    <p style="color: red;" id="error"></p>
-                    <button type="submit">Create Account</button>
-                </form>
-            </div>
-        </div>
-    </div>
+		<div class="register">
+			<div class="container">
+				<div class="form">
+					<form action="">
+						Login
+						<input type="text" name="username" id="username" placeholder="Username" />
+						<input type="password" name="password" id="password" placeholder="Password" />
+						<button type="submit">Login</button>
+						<div class="logo">
+							<img src="./Asset/facebookcolor.webp" alt="" loading="lazy" decoding="async" />
+							<img src="./Asset/Gmail.webp" alt="" loading="lazy" decoding="async" />
+							<img src="./Asset/twiitercolor.webp" alt="" loading="lazy" decoding="async" />
+						</div>
+					</form>
+				</div>
+				<div class="form">
+					<form action="" id="form">
+						Create Account
+						<input type="text" name="name" id="name" placeholder="Name" />
+						<label for="gender">Gender</label>
+						<div class="gender">
+							<div>
+								<input type="radio" name="gender" id="male" />
+								<label for="male">Male</label>
+							</div>
+							<div>
+								<input type="radio" name="gender" id="female" />
+								<label for="female">Female</label>
+							</div>
+						</div>
+						<input type="text" name="username" id="username" placeholder="Username" />
+						<input type="email" name="email" id="email" placeholder="Email" />
+						<input type="email" name="email" id="emailcon" placeholder="Confirm Email" />
+						<input type="password" name="password" id="password" placeholder="Confirm Password" />
+						<input
+							type="password"
+							name="password"
+							id="passwordcon"
+							placeholder="Confirm Password"
+						/>
+						<div>
+							<input type="checkbox" name="tc" id="tc" />
+							<label for="tc">Agree to Terms and Condition</label>
+						</div>
+						<p style="color: red;" id="error"></p>
+						<button type="submit">Create Account</button>
+					</form>
+				</div>
+			</div>
+		</div>
 
-    <!-- FOOTER -->
-    <footer>
-        <div class="container">
-            <h3>NOKA 3&trade;</h3>
-            <h4>Niko Game Studions Inc.</h4>
-            <h4>About Us</h4>
-        </div>
-        <div class="container2">
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-                <img src="./Asset/ig2.webp" alt="">@nikogames
-            </a>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-                <img src="./Asset/twiiter.webp" alt="">@nikogames
-            </a>
-            <a href="mailto: info@nikogames.co.id" target="_blank" rel="noopener noreferrer">
-                <img src="./Asset/mail.webp" alt="">info@nikogames.co.id
-            </a>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-                <img src="./Asset/facebook.webp" alt="">nikogames
-            </a>
-        </div>
-    </footer>
-    
-</body>
-<script src="./script.js"></script>
+		<!-- FOOTER -->
+		<footer>
+			<div class="container">
+				<h3>NOKA 3&trade;</h3>
+				<h4>Niko Game Studions Inc.</h4>
+				<h4>About Us</h4>
+			</div>
+			<div class="container2">
+				<a href="http://" target="_blank" rel="noopener noreferrer">
+					<img src="./Asset/ig2.webp" alt="" loading="lazy" decoding="async" />@nikogames
+				</a>
+				<a href="http://" target="_blank" rel="noopener noreferrer">
+					<img src="./Asset/twiiter.webp" alt="" loading="lazy" decoding="async" />@nikogames
+				</a>
+				<a href="mailto: info@nikogames.co.id" target="_blank" rel="noopener noreferrer">
+					<img src="./Asset/mail.webp" alt="" loading="lazy" decoding="async" />info@nikogames.co.id
+				</a>
+				<a href="http://" target="_blank" rel="noopener noreferrer">
+					<img src="./Asset/facebook.webp" alt="" loading="lazy" decoding="async" />nikogames
+				</a>
+			</div>
+		</footer>
+	</body>
+	<script src="./script.js"></script>
 </html>
